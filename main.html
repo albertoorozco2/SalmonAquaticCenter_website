@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<head>
+	<title> Salmon Aquatic Centre / Home </title>
+	<style>
+	*{
+		
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style-type:none;
+	text-align: center;
+    	vertical-align:middle;
+    	font-family: Century Gothic ,Helvetica,sans-serif;}
+a{	
+       text-decoration:none;
+        color:#005c66;
+
+       }
+body{
+	
+	background-image: url("cover.jpg"); 
+	background-position:center;
+ 	background-attachment: fixed;}
+#header{
+	background-color:#fff;
+    	height: 120px;
+    	width: 100%;}
+#logo{
+        float:left;
+        padding: 10px 40px 10px 90px;}    	
+#nav{
+        padding-top:33px}
+ul {
+    	float: left;
+    	        display:inline;}
+ul li {
+        position:relative;
+
+	font-family: Century Gothic ,Helvetica,sans-serif;
+	float: left;
+    	height: 45px;
+    	width: 130px;
+    	font-size: 17px;
+    	border-radius:32% 8% 16% 4%;
+    	border:solid;
+    	border-width: 1px;
+    	border-color:gray;
+    	margin-right:10px;
+        background-image: url("azul.jpg");
+        background-position: center; }
+ul li a{
+        color:#ECECEC;
+        display:block;
+        padding:12px 15px 10px 15px;}
+  ul li:hover{      
+        background-image: url("azul2.jpg");
+        background-position: center;
+        transform:scale(1.05);}      
+ul li ul li{    
+        height: 35px;
+    	width: 130px;
+    	font-size:12px;
+    	border-radius:0%;
+    	border-bottom-color:none;
+    	background-image: url("azul.jpg");
+        background-position: center;
+                       }
+ul li ul li a{
+        text-align:left;
+        padding:10px 10px 10px 10px;
+        }     
+#dropnav{
+        position: absolute;
+        display:none;
+}
+ ul li ul li a:hover{
+        background-image: url("azul2.jpg");
+        background-position: center; 
+        font-weight:bold;}       
+#dropdown:hover > #dropnav {
+        display:block;
+}
+
+#portada{
+	padding-right:330px; 
+	padding-left:330px; 
+	padding-top:155px; 
+	padding-bottom:155px;
+}
+#quotew,#authorw{
+	font-family: Arial;
+	color: #EFF5FB;
+	font-size:40px;}
+#authorw{
+	font-size:25px;
+	text-align:right;}
+#content{
+	text-aling:left;
+	background-color:#fff;
+    	padding-right: 230px;
+    	padding-left:230px;
+	padding-top:40px;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+    	color: #15317E;
+	line-height: 35px;}
+	
+	#bimg1, #bimg2, #bimg3, #bimg4, #bimg5{
+		width:256px;
+		height:145px;
+	display:inline-block;
+	float:left;
+	}
+#bimg1{background-image: url("pool.jpg");
+			background-size: 256px 145px;
+	
+        }	
+#bimg1:hover{background-image: url("pool1.jpg");
+			background-size: 256px 145px;
+			
+}
+#bimg2{background-image: url("adults.jpg");
+			background-size: 256px 145px;
+	
+        }	
+#bimg2:hover{background-image: url("adults1.jpg");
+			background-size: 256px 145px;
+}
+#bimg3{background-image: url("children.jpg");
+			background-size: 256px 145px;
+	
+        }	
+#bimg3:hover{background-image: url("children1.jpg");
+			background-size: 256px 145px;
+}
+#bimg4{background-image: url("side21.jpg");
+			background-size: 256px 145px;
+	
+        }	
+#bimg4:hover{background-image: url("side211.jpg");
+			background-size: 256px 145px;
+}
+#bimg5{background-image: url("side3.jpg");
+			background-size: 256px 145px;
+	
+        }	
+#bimg5:hover{background-image: url("side31.jpg");
+			background-size: 256px 145px;
+}	
+#footer{background-color:rgba(255,255,255,0.7);
+height:100px;
+width: 100%;
+}
+#foot{
+line-height: 15px;
+padding: 20px 120px;
+font-size:12px;	
+text-color:black;
+text-align:right;}
+
+
+
+div#slider figure {
+ 
+		position: relative; 
+		width: 600%;
+		margin: 0; 
+		padding: 0; 
+		font-size: 0; 
+		text-align: left;	
+	
+		  animation: 20s slidy infinite; 
+}
+div#slider figure img { width: 625px; height: 250px;}
+ 
+div#slider { width: 1280px; max-width: 1280px; overflow: hidden }
+
+@keyframes slidy {
+ 
+0% { left: 0%; }
+ 
+20% { left: 0%; }
+ 
+25% { left: -100%; }
+ 
+45% { left: -100%; }
+ 
+50% { left: -200%; }
+ 
+70% { left: -200%; }
+ 
+75% { left: -300%; }
+ 
+95% { left: -300%; }
+ 
+100% { left: -400%; }
+ 
+}	
+
+#iconsi{    padding:0px;
+    height:40px;
+        width:40px;
+
+    padding:1px;
+    float:right;
+    margin-top:1px;
+            margin-right:30px;
+
+
+    }
+	</style>
+</head>
+<body>
+<!--  div for the header with a logo and menu that is fixed all the time-->
+	<div id="header">
+	<div id="logo">
+	<a href="main.html"><img src="logo.png" style="width:280px;height:100px;"></a>
+	</div>
+		<div id="nav">
+		<ul >
+			<li><a href="main.html">Home</a></li>
+			<li><a href="About.html">About Us</a></li>
+			<li id="dropdown"><a>Facilities</a>
+				<ul id="dropnav">
+					<li><a href="Adults.html">Adults Lessons</a></li>
+					<li><a href="Children.html">Children Lessons</a></li>
+					<li><a href="Pool.html">Swimming Pool</a></li>
+					<li><a href="Showers.html">Changing Rooms</a></li>
+				</ul>
+				</li>
+			<li><a href="Member.html">Membership</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+		</div>
+	</div>
+
+
+<!--  div for the cover with a quote, it is a big backgroun image and the quote infront-->
+
+<div id="portada" >
+		<h1 id="quotew"><em><q>This life is a swimming pool. <br>You dive into the water, but<br> you cannot see how deep it is.</q></em> </h1><br>
+		<h1 id="authorw">- Dennis Rodman</h1>
+	</div>
+	
+	<div id="content">
+	<h3 style="text-align: center;">SALMON AQUATIC CENTRE</h3><br>
+	<div style="margin-right:330px;">
+<a href="https://www.facebook.com" ><img style="text-align: left;" id="iconsi" src="fb.png"></a>
+<a href="https://www.twitter.com"><img id="iconsi" src="fbt.png"></a>
+<br><br><br>
+	</div></div>
+	
+<!--  div with imgen-links to the most important pages of the website-->
+
+	<div id="slider">
+	<figure>
+		<a  id="bimg1" href="about.html"></a>
+		<a id="bimg4" href="member.html"></a>
+		<a id="bimg2" href="adults.html"></a>
+		<a id="bimg3" href="children.html"></a>
+		<a id="bimg5" href="contact.html"></a>
+		<a id="bimg5" href="contact.html"></a>
+		<a id="bimg4" href="member.html"></a>
+		<a id="bimg3" href="children.html"></a>
+		<a id="bimg2" href="adults.html"></a>		
+		<a  id="bimg1" href="about.html"></a>
+		<a  id="bimg1" href="about.html"></a>
+		<a id="bimg3" href="children.html"></a>
+		<a id="bimg5" href="contact.html"></a>
+		<a id="bimg2" href="adults.html"></a>
+		<a id="bimg4" href="member.html"></a>
+		<a id="bimg4" href="member.html"></a>
+		<a id="bimg5" href="contact.html"></a>
+		<a  id="bimg1" href="about.html"></a>
+		<a id="bimg2" href="adults.html"></a>
+		<a id="bimg3" href="children.html"></a>
+		<a  id="bimg1" href="about.html"></a>
+		<a id="bimg4" href="member.html"></a>
+		<a id="bimg2" href="adults.html"></a>
+		<a id="bimg3" href="children.html"></a>
+
+
+</figure>
+	</div>
+<!--  div with small introduction of the  who we are-->
+
+
+<div id="content"><p><br>
+We offer comprehensive swimming training solutions providing a fun, fast paced environment.
+<br> Our lessons vary in intensity to suit all levels. Our mission is to deliver a level of service that meets <br>and exceeds our customers expectations.  We want to be the swimming pool you love to visit often.<br><br>
+
+
+<!--  div for the list of the event and competition that take place in the swimming pool-->
+
+<table align="center" style="width:800px">
+<tr><td colspan="3" > <b>EVENTS AND COMPETITIONS 2016<br></b></td></tr>
+<tr><td>April 4th-10th</td><td><a href="http://www.swimforamile.com/">Swim for a mile</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+<tr><td>May 8th</td><td><a href="http://www.swimireland.ie/other-water-sports/schools-swimming/">School Interpro 2016</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+<tr><td>May 22nd</td><td><a href="https://www.facebook.com/3dtri/">3d Tri</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+<tr><td>June 12th - 16th </td><td><a href="http://nacswimclub.com/clubinfo/nac-lc-gala/">NAC LC</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+<tr><td>October 23rd </td><td><a href="https://irishmastersswimming.wordpress.com/"> Irish Master Swimmers</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+<tr><td>November 20th </td><td><a href="http://www.swimleinster.com/clubs.htm">Swimming - Distance SC</a></td><td>More info please <a href="contact.html">Contact Us.</a></td></tr>
+</table>
+<br><br></p>
+	</div>
+	
+	<!--  div for the footer fixed all the time with information of the web designer and administrador-->
+
+	<div id="footer">
+	<p id="foot">Salmon Aquatic Centre &copy; 2016. All Rights Reserved<br>
+Website Design and Administrator<a href="main3.html"><b> Espacio Abierto </b></a> &copy; 2016</p>
+	
+	</div>
+
+	
+</body>
+</html>

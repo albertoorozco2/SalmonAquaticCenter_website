@@ -1,0 +1,285 @@
+
+html, body {
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #005c66;
+}
+#body2 {
+    background-image: url("cover2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+#body2 {
+    background-color: #fff
+}
+#body3 {
+    background-image: url("adults.jpg");
+}
+#body4 {
+    background-image: url("children.jpg");
+}
+#body5 {
+    background-image: url("pool.jpg");
+}
+#body6 {
+    background-image: url("showers.jpg");
+}
+#header {
+    background-image: url("azul.jpg");
+    height: 47px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+#logo {
+    float: left;
+    padding: 1px 77px 1px 193px;
+    width: 126px;
+    height: 45px;
+}
+#mainmenu {
+    float: left;
+}
+ul li {
+    position: relative;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    float: left;
+    height: 47px;
+    width: 142px;
+    font-size: 17px;
+    border-radius: 16% 4% 8% 2%;
+    background-image: url("azul.jpg");
+    background-position: center;
+}
+ul li a {
+    color: #ECECEC;
+    display: block;
+    padding: 12px 15px 10px 15px;
+}
+ul li:hover {
+    background-image: url("azul2.jpg");
+    background-position: center;
+    font-size: 18px;
+}
+ul li ul li {
+    height: 40px;
+    width: 142px;
+    font-size: 12px;
+    border-radius: 0%;
+    border-bottom-color: none;
+    background-image: url("azul.jpg");
+    background-position: center;
+}
+ul li ul li a {
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+#dropnav {
+    position: absolute;
+    display: none;
+}
+ul li ul li a:hover {
+    background-image: url("azul2.jpg");
+    background-position: center;
+    font-size: 13px;
+}
+#dropdown:hover > #dropnav {
+    display: block;
+}
+#logo3 {
+    margin-top: 90px;
+    width: 560px;
+    height: 200px;
+}
+#us1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 70px 600px 70px 90px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 3%;
+    color: #fff;
+    font-size: 21px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    line-height: 31px;
+}
+#us2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 70px 90px 70px 600px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 3%;
+    color: #fff;
+    font-size: 21px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    line-height: 31px;
+}
+#joinnow {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 70px 400px 70px 400px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 3%;
+    color: #fff;
+    font-size: 21px;
+    height: 100px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    line-height: 31px;
+}
+#joinnow2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    float: right;
+    padding: 50px;
+    color: #fff;
+    font-size: 21px;
+    width: 279px;
+    height: 401px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    line-height: 31px;
+}
+
+#joinnow3 {
+    background-color: rgba(0, 0, 0, 0.7);
+    float: right;
+    padding: 50px;
+    color: #fff;
+    font-size: 21px;
+    width: 279px;
+    height: 279px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    line-height: 31px;
+}
+#singlelink {
+    margin: 10px 130px 10px 130px;
+}
+#singlelink2 {
+    margin: 40px 60px 10px 65px;
+}
+#frame {
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 47px;
+}
+#imgframe {
+    float: left;
+    width: 900px;
+    height: 450px;
+}
+#imgframe2 {
+    float: left;
+    width: 897px;
+    height: 375px;
+}
+#facility {
+    background-color: #fff;
+}
+#facility a {
+    float: right;
+    width: 188px;
+    height: 148px;
+    border: solid;
+    border-width: 1px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 75px;
+    background-image: url("azul3.jpg");
+    background-position: center;
+}
+#facility a:hover {
+    background-image: url("azul4.jpg");
+    background-position: center;
+    font-size: 21px;
+}
+#texttitle {
+    font-size: 24px;
+    color: #003333;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+#textframe {
+    float: left;
+    width: 761px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    color: #0d0d0d;
+    font-size: 17px;
+    padding: 40px 70px 0px 70px;
+    line-height: 30px;
+}
+#textframe2 { float: left;
+    width: 761px;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    color: #0d0d0d;
+    font-size: 17px;
+    padding: 40px 70px 0px 70px;
+    line-height: 30px;
+ } 
+#adults {
+    text-align: justify;
+}
+u {
+    text-decoration: underline;
+}
+#sidepic{
+    float:right;
+     width: 379px;
+    height: 284px;
+   
+}
+td{text-align: right;}
+select{ font-size:17px;
+width:300px;}
+input{font-size:15px;
+width:300px;
+display: table-cell; }
+button{
+ color: #ECECEC;
+    height: 47px;
+    width: 142px;
+    font-size: 17px;
+    border-radius: 16% 4% 8% 2%;
+    background-image: url("azul.jpg");
+    background-position: center;
+}
+#mapicons{height: 40px;
+    width: 40px;}
+#mapicon{ color: #ECECEC;
+    height: 50px;
+    width: 50px;
+    font-size: 17px;
+    border-radius: 16% 4% 8% 2%;
+    background-image: url("azul.jpg");
+    background-position: center;}
+#mapicon:hover{    
+ color: #ECECEC;
+background-image: url("azul2.jpg");
+    background-position: center;
+    font-size: 18px;
+}
+button:hover{    
+ color: #ECECEC;
+background-image: url("azul2.jpg");
+    background-position: center;
+    font-size: 18px;
+}
+#footer {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100px;
+    width: 100%;
+}
+#foot {
+    line-height: 15px;
+    padding: 20px 120px;
+    font-size: 16px;
+    text-color: black;
+    text-align: right;
+}
